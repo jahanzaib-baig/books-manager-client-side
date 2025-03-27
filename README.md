@@ -1,34 +1,6 @@
 # Books Manager
 
-A RESTful API for managing books built with Node.js, Express.js, and MongoDB.
-
-## Features
-
-CRUD operations for books
-
-#### API Endpoints
-
-The API follows RESTful conventions and supports the following operations:
-
-###### Create a new book
-
-    POST /api/book
-
-###### Retrieve all books
-
-    GET /api/books
-
-###### Retrieve a single book by ID
-
-    GET /api/book/:id
-
-###### Update a book by ID
-
-    PUT /api/book/:id
-
-###### Delete a book by ID
-
-    DELETE /api/book/:id
+Next.js web app that integrates with a RESTful API for managing book records. It supports CRUD operations with a focus on performance and usability.
 
 ## Requirements
 
@@ -73,3 +45,33 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
    ```
    npm run dev
    ```
+
+5. Open http://localhost:3000 in your browser to see the app.
+
+## Features
+
+CRUD operations for books
+
+#### API Endpoints
+
+The API follows RESTful conventions and supports the following operations:
+
+###### Create a new book
+
+    POST /api/book
+
+###### Retrieve all books
+
+    GET /api/books
+
+###### Retrieve a single book by ID
+
+    GET /api/book/:id
+
+###### Update a book by ID
+
+    PUT /api/book/:id
+
+###### Delete a book by ID
+
+    DELETE /api/book/:id
