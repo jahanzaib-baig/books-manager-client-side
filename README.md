@@ -24,11 +24,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
    ```
     npm install
-    Create a .env file in the root directory with your MongoDB connection string:
 
    ```
 
-3. Create a .env file in the root directory with your MongoDB connection string:
+3. Create a .env file in the root directory with your API URL string:
 
    ```
    NEXT_PUBLIC_API_URL='http://localhost:8000/api'
